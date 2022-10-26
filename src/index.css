@@ -1,4 +1,9 @@
-@import-normalize; /* bring in normalize.css styles */
+@import 'components/Profile/Profile.css';
+@import 'components/Statistics/Statistics.css';
+@import 'components/Stats/Stats.css';
+@import 'components/StatsCard/StatsCard.css';
+@import 'components/FriendListItem/FriendListItem.module.css';
+@import 'components/TransactionHistory/TransactionHistory.css';
 
 body {
   margin: 0;

@@ -3,13 +3,13 @@ import { FriendListItem } from 'components/FriendListItem/FriendListItem';
 
 export const FriendList = ({ cardsFriends }) => {
     return <ul className='friend_list'>{cardsFriends.map
-        (({ avatar, name, isOnline, id }) =>
-        <FriendListItem
-        key={id}
-        avatar={avatar}
-        name={name}
-        isOnline={isOnline} />)}
-    </ul>
+                (({ avatar, name, isOnline, id }) =>
+                <FriendListItem
+                key={id}
+                avatar={avatar}
+                name={name}
+                isOnline={isOnline} />)}
+            </ul>
 }
 
 FriendList.propTypes = {
